@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<conio.h>
 main()
 {
 int a[100],n,k,i,c=0;
