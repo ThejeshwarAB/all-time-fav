@@ -1,3 +1,4 @@
+//linear search
 #include<stdio.h>
 main()
 {
