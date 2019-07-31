@@ -1,20 +1,22 @@
 #include<stdio.h>
 #include<conio.h>
-
 main()
 {
-int a[1000],n,k,i,c=0;
-scanf("%d",&n);//size of array
+int a[100],n,k,i,c=0;
+//size of array
+scanf("%d",&n);
+//elements of array
 for(i=0;i<n;i++)
-scanf("%d",&a[i]);//array elements
-scanf("%d",&k);//key element
+	scanf("%d",&a[i]);
+//search element
+scanf("%d",&k);
 for(i=0;i<n;i++)
-if(a[i]==k)//linear search
-{
-print("%d",i+1);
-c=1;
-break;
-}
-if(!c)//flag value
-printf("Invalid key");
+	if(a[i]==k)
+	{
+		c=1;
+		printf("%d",i+1);
+		break;
+	}
+if(!c)
+	printf("Invalid key");
 }
