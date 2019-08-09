@@ -2,7 +2,8 @@
 n=input()
 l=len(n)
 n=int(n)
-m,s=n,0
+m=n
+s=0
 while(m):
     r=m%10
     s=s+r**l
